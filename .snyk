@@ -16,6 +16,10 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
         patched: '2021-12-13T20:00:17.271Z'
+    - extract-zip > mkdirp > tar-pack > debug:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > tar-pack > debug:
+        patched: '2021-12-26T19:05:35.707Z'
   'npm:extend:20180424':
     - cordova > cordova-lib > npm > request > extend:
         patched: '2021-12-13T20:00:17.271Z'
@@ -83,6 +87,18 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > extend:
         patched: '2021-12-13T20:00:17.271Z'
+    - eslint-plugin-vue > request > extend:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > request > extend:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > extend:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > extend:
+        patched: '2021-12-26T19:05:35.707Z'
   'npm:hoek:20180212':
     - firebase-tools > request > hawk > hoek:
         patched: '2021-12-13T20:00:17.271Z'
@@ -296,6 +312,38 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
         patched: '2021-12-13T20:00:17.271Z'
+    - eslint-plugin-vue > google-auto-auth > request > hawk > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > hawk > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > hawk > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > hawk > sntp > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > hawk > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > hawk > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > hawk > sntp > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > request > hawk > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > request > hawk > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > request > hawk > sntp > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-26T19:05:35.707Z'
   SNYK-JS-LODASH-567746:
     - babel-core > lodash:
         patched: '2021-12-13T20:00:17.271Z'
@@ -829,6 +877,14 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
         patched: '2021-12-13T20:00:17.271Z'
+    - eslint-plugin-vue > request > stringstream:
+        patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > request > stringstream:
+        patched: '2021-12-26T19:05:35.707Z'
+    - extract-zip > mkdirp > request > stringstream:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > stringstream:
+        patched: '2021-12-26T19:05:35.707Z'
   'npm:tough-cookie:20170905':
     - cordova > cordova-lib > npm > request > tough-cookie:
         patched: '2021-12-13T20:00:17.271Z'
@@ -840,6 +896,10 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2021-12-13T20:00:17.271Z'
+    - extract-zip > mkdirp > request > tough-cookie:
+        patched: '2021-12-26T19:05:35.707Z'
+    - offline-plugin > puppeteer > extract-zip > mkdirp > request > tough-cookie:
+        patched: '2021-12-26T19:05:35.707Z'
   'npm:tunnel-agent:20170305':
     - firebase-tools > request > tunnel-agent:
         patched: '2021-12-13T20:00:17.271Z'
@@ -879,3 +939,5 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
         patched: '2021-12-13T20:00:17.271Z'
+    - eslint-plugin-vue > google-auto-auth > request > tunnel-agent:
+        patched: '2021-12-26T19:05:35.707Z'
