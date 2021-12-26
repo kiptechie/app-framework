@@ -87,18 +87,9 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > extend:
         patched: '2021-12-13T20:00:17.271Z'
-    - eslint-plugin-vue > request > extend:
-        patched: '2021-12-26T19:05:35.707Z'
-    - eslint-plugin-vue > google-auto-auth > gcp-metadata > extend:
-        patched: '2021-12-26T19:05:35.707Z'
-    - eslint-plugin-vue > google-auto-auth > request > extend:
-        patched: '2021-12-26T19:05:35.707Z'
-    - extract-zip > mkdirp > request > extend:
-        patched: '2021-12-26T19:05:35.707Z'
-    - eslint-plugin-vue > google-auto-auth > google-auth-library > gcp-metadata > extend:
-        patched: '2021-12-26T19:05:35.707Z'
-    - offline-plugin > puppeteer > extract-zip > mkdirp > request > extend:
-        patched: '2021-12-26T19:05:35.707Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2021-12-26T18:54:41.025Z'
+
   'npm:hoek:20180212':
     - firebase-tools > request > hawk > hoek:
         patched: '2021-12-13T20:00:17.271Z'
@@ -800,6 +791,8 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - cordova > cordova-lib > cordova-create > cordova-fetch > cordova-common > plist > xmlbuilder > lodash:
         patched: '2021-12-13T20:00:17.271Z'
+    - offline-plugin > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-12-26T18:54:41.025Z'
   'npm:mime:20170907':
     - firebase-tools > @google-cloud/functions-emulator > express > send > mime:
         patched: '2021-12-13T20:00:17.271Z'
@@ -939,5 +932,6 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
         patched: '2021-12-13T20:00:17.271Z'
-    - eslint-plugin-vue > google-auto-auth > request > tunnel-agent:
-        patched: '2021-12-26T19:05:35.707Z'
+  'npm:minimatch:20160620':
+    - offline-plugin > babel > glob > minimatch:
+        patched: '2021-12-26T18:54:41.025Z'
