@@ -1,0 +1,881 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - firebase-tools > @google-cloud/functions-emulator > body-parser > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > express > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > express > send > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > express > serve-static > send > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:extend:20180424':
+    - cordova > cordova-lib > npm > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:hoek:20180212':
+    - firebase-tools > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > jsonwebtoken > joi > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > jsonwebtoken > joi > topo > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-12-13T20:00:17.271Z'
+  SNYK-JS-LODASH-567746:
+    - babel-core > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - eslint > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - html-webpack-plugin > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - http-proxy-middleware > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-register > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - eslint > table > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > superstatic > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-generator > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:lodash:20180130':
+    - firebase-tools > @google-cloud/functions-emulator > cli-table2 > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-common > plist > xmlbuilder > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > cordova-common > plist > xmlbuilder > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > cordova-fetch > cordova-common > plist > xmlbuilder > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > cordova-create > cordova-common > plist > xmlbuilder > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > cordova-create > cordova-fetch > cordova-common > plist > xmlbuilder > lodash:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:mime:20170907':
+    - firebase-tools > @google-cloud/functions-emulator > express > send > mime:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > express > serve-static > send > mime:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:moment:20170905':
+    - firebase > jsonwebtoken > joi > moment:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > jsonwebtoken > joi > moment:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:ms:20170412':
+    - firebase > jsonwebtoken > ms:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:qs:20170213':
+    - cordova > cordova-lib > npm > request > qs:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > qs:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > qs:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:stringstream:20180511':
+    - firebase-tools > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > retry-request > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:tough-cookie:20170905':
+    - cordova > cordova-lib > npm > request > tough-cookie:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > tough-cookie:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > tough-cookie:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > grpc > node-pre-gyp > request > tough-cookie:
+        patched: '2021-12-13T20:00:17.271Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-12-13T20:00:17.271Z'
+  'npm:tunnel-agent:20170305':
+    - firebase-tools > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - jimp > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > insight > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > universal-analytics > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - to-ico > resize-img > jimp > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > node-gyp > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - cordova > cordova-lib > npm > npm-registry-client > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > google-auth-library > gtoken > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
+        patched: '2021-12-13T20:00:17.271Z'
