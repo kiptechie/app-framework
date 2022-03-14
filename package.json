@@ -97,7 +97,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^4.26.0",
     "webpack-dev-middleware": "^1.8.3",
-    "webpack-hot-middleware": "^2.12.2",
+    "webpack-hot-middleware": "^2.25.1",
     "webpack-merge": "^1.0.0",
     "xml2js": "^0.4.17",
     "zip-dir": "^2.0.0",
