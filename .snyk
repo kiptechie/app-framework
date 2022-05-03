@@ -89,7 +89,14 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > google-auto-auth > google-auth-library > gcp-metadata > extend:
         patched: '2021-12-26T18:54:41.025Z'
-
+    - eslint-plugin-vue > google-auto-auth > gcp-metadata > extend:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > request > extend:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > extend:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2022-05-03T20:40:37.640Z'
   'npm:hoek:20180212':
     - firebase-tools > request > hawk > hoek:
         patched: '2021-12-13T20:00:17.271Z'
@@ -335,6 +342,22 @@ patch:
         patched: '2021-12-26T19:05:35.707Z'
     - eslint-plugin-vue > request > hawk > cryptiles > boom > hoek:
         patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-05-03T20:40:37.640Z'
   SNYK-JS-LODASH-567746:
     - babel-core > lodash:
         patched: '2021-12-13T20:00:17.271Z'
@@ -878,6 +901,10 @@ patch:
         patched: '2021-12-26T19:05:35.707Z'
     - offline-plugin > puppeteer > extract-zip > mkdirp > request > stringstream:
         patched: '2021-12-26T19:05:35.707Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2022-05-03T20:40:37.640Z'
   'npm:tough-cookie:20170905':
     - cordova > cordova-lib > npm > request > tough-cookie:
         patched: '2021-12-13T20:00:17.271Z'
@@ -932,6 +959,12 @@ patch:
         patched: '2021-12-13T20:00:17.271Z'
     - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
         patched: '2021-12-13T20:00:17.271Z'
+    - eslint-plugin-vue > google-auto-auth > request > tunnel-agent:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2022-05-03T20:40:37.640Z'
+    - eslint-plugin-vue > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent:
+        patched: '2022-05-03T20:40:37.640Z'
   'npm:minimatch:20160620':
     - offline-plugin > babel > glob > minimatch:
         patched: '2021-12-26T18:54:41.025Z'
