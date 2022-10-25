@@ -83,7 +83,7 @@
     "on-build-webpack": "^0.1.0",
     "opn": "^4.0.2",
     "package-json": "^4.0.1",
-    "recursive-readdir": "^2.1.1",
+    "recursive-readdir": "^2.2.3",
     "recursive-readdir-sync": "^1.0.6",
     "semver": "^5.3.0",
     "shelljs": "^0.7.4",
