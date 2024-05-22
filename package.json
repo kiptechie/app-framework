@@ -73,7 +73,7 @@
     "glob-to-regexp": "^0.3.0",
     "hex-rgb": "^1.0.0",
     "html-webpack-plugin": "^4.0.0",
-    "http-proxy-middleware": "^0.18.0",
+    "http-proxy-middleware": "^0.20.0",
     "ionicons": "^3.0.0",
     "jimp": "^0.12.0",
     "json-loader": "^0.5.4",
